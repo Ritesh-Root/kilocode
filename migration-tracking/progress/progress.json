@@ -4,14 +4,14 @@
     "v1Base": "8100c68b507b53aac6b891edbc3040a6011d8969"
   },
   "summary": {
-    "done": 2015,
+    "done": 2016,
     "total": 5339,
-    "percent": 37.7,
+    "percent": 37.8,
     "dropped": 101,
     "kinds": [
       {
         "kind": "module",
-        "done": 1493,
+        "done": 1494,
         "total": 3266
       },
       {
@@ -39,7 +39,7 @@
     "coreImports": 65,
     "sharedPatches": {
       "seam": 78,
-      "patch": 59
+      "patch": 60
     }
   },
   "notCounted": {
@@ -423,12 +423,12 @@
     },
     {
       "feature": "cli",
-      "done": 8,
+      "done": 9,
       "total": 148,
       "dropped": 0,
       "kinds": {
         "module": {
-          "done": 4,
+          "done": 5,
           "total": 72
         },
         "api": {
@@ -4376,6 +4376,7 @@
     "module:packages/opencode/src/kilocode/cli/cmd/tui/component/dialog-provider.tsx",
     "module:packages/opencode/src/kilocode/cli/cmd/tui/indexing-warning.ts",
     "module:packages/opencode/src/kilocode/cli/cmd/tui/terminal-activity.ts",
+    "module:packages/opencode/src/kilocode/commands.ts",
     "module:packages/opencode/src/kilocode/commit-message/generate.ts",
     "module:packages/opencode/src/kilocode/commit-message/git-context.ts",
     "module:packages/opencode/src/kilocode/commit-message/index.ts",

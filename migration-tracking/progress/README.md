@@ -8,11 +8,11 @@ Measures Kilo's v1 feature delta: Kilo `main` pinned at `fb7e96eda540` (the v1 t
 
 ## Summary
 
-**2015 / 5339 cells done (37.7%)**, 101 dropped. `██████░░░░░░░░░░`
+**2016 / 5339 cells done (37.8%)**, 101 dropped. `██████░░░░░░░░░░`
 
 | Kind | Done | Total | % |
 |---|---:|---:|---:|
-| module | 1493 | 3266 | 45.7% |
+| module | 1494 | 3266 | 45.7% |
 | api | 19 | 36 | 52.8% |
 | patch | 66 | 318 | 20.8% |
 | test | 437 | 1719 | 25.4% |
@@ -21,7 +21,7 @@ Not counted: 4163 unattributed shared-file hunks (no feature tag, Kilo import or
 
 Landed by rung, for patch cells closed by a done-proof: 46 plugin, 15 host, 6 seam, 2 patch.
 
-Ratchets: 65 core-internal upstream modules imported by Kilo packages and adapters (`@opencode/core/agent`, `@opencode/core/app`, `@opencode/core/bus`, `@opencode/core/config`, `@opencode/core/config/discovery`, `@opencode/core/config/normalize`, `@opencode/core/config/plugin/skill-file`, `@opencode/core/config/plugin/source`, `@opencode/core/credential`, `@opencode/core/database/database`, `@opencode/core/database/path`, `@opencode/core/database/v1-migration`, `@opencode/core/effect/app-node-builder`, `@opencode/core/effect/app-node-platform`, `@opencode/core/environment`, `@opencode/core/file-access`, `@opencode/core/flag`, `@opencode/core/form`, `@opencode/core/generate`, `@opencode/core/instance/service`, `@opencode/core/integration`, `@opencode/core/job`, `@opencode/core/location`, `@opencode/core/location-service-map`, `@opencode/core/managed-policy`, `@opencode/core/mcp`, `@opencode/core/mcp/host`, `@opencode/core/mcp/pool`, `@opencode/core/model`, `@opencode/core/model-resolver`, `@opencode/core/permission`, `@opencode/core/plugin`, `@opencode/core/plugin/module`, `@opencode/core/plugin/provider/openai`, `@opencode/core/plugin/sdk`, `@opencode/core/plugin/system-prompt/anthropic.txt`, `@opencode/core/plugin/system-prompt/gpt-astra.txt`, `@opencode/core/plugin/system-prompt/gpt.txt`, `@opencode/core/plugin/system-prompt/kimi.txt`, `@opencode/core/plugin/system-prompt/trinity.txt`, `@opencode/core/project`, `@opencode/core/provider`, `@opencode/core/rpc`, `@opencode/core/schedule`, `@opencode/core/schema`, `@opencode/core/session`, `@opencode/core/session/event`, `@opencode/core/session/projector`, `@opencode/core/session/runner/model`, `@opencode/core/session/runner/prompt/system.txt`, `@opencode/core/session/store`, `@opencode/core/session/system-prompt`, `@opencode/core/shell`, `@opencode/core/shell/parse`, `@opencode/core/skill`, `@opencode/core/snapshot`, `@opencode/core/tool`, `@opencode/core/tool-output`, `@opencode/core/tool/plugin/file-diff`, `@opencode/core/tool/plugin/question`, `@opencode/core/tool/plugin/subagent`, `@opencode/core/tool/plugin/todo`, `@opencode/core/tool/read-filesystem`, `@opencode/core/util/wildcard`, `@opencode/core/variant`); 137 shared patches by rung: 78 seam, 59 patch (`script/upstream/shared-patches.json`).
+Ratchets: 65 core-internal upstream modules imported by Kilo packages and adapters (`@opencode/core/agent`, `@opencode/core/app`, `@opencode/core/bus`, `@opencode/core/config`, `@opencode/core/config/discovery`, `@opencode/core/config/normalize`, `@opencode/core/config/plugin/skill-file`, `@opencode/core/config/plugin/source`, `@opencode/core/credential`, `@opencode/core/database/database`, `@opencode/core/database/path`, `@opencode/core/database/v1-migration`, `@opencode/core/effect/app-node-builder`, `@opencode/core/effect/app-node-platform`, `@opencode/core/environment`, `@opencode/core/file-access`, `@opencode/core/flag`, `@opencode/core/form`, `@opencode/core/generate`, `@opencode/core/instance/service`, `@opencode/core/integration`, `@opencode/core/job`, `@opencode/core/location`, `@opencode/core/location-service-map`, `@opencode/core/managed-policy`, `@opencode/core/mcp`, `@opencode/core/mcp/host`, `@opencode/core/mcp/pool`, `@opencode/core/model`, `@opencode/core/model-resolver`, `@opencode/core/permission`, `@opencode/core/plugin`, `@opencode/core/plugin/module`, `@opencode/core/plugin/provider/openai`, `@opencode/core/plugin/sdk`, `@opencode/core/plugin/system-prompt/anthropic.txt`, `@opencode/core/plugin/system-prompt/gpt-astra.txt`, `@opencode/core/plugin/system-prompt/gpt.txt`, `@opencode/core/plugin/system-prompt/kimi.txt`, `@opencode/core/plugin/system-prompt/trinity.txt`, `@opencode/core/project`, `@opencode/core/provider`, `@opencode/core/rpc`, `@opencode/core/schedule`, `@opencode/core/schema`, `@opencode/core/session`, `@opencode/core/session/event`, `@opencode/core/session/projector`, `@opencode/core/session/runner/model`, `@opencode/core/session/runner/prompt/system.txt`, `@opencode/core/session/store`, `@opencode/core/session/system-prompt`, `@opencode/core/shell`, `@opencode/core/shell/parse`, `@opencode/core/skill`, `@opencode/core/snapshot`, `@opencode/core/tool`, `@opencode/core/tool-output`, `@opencode/core/tool/plugin/file-diff`, `@opencode/core/tool/plugin/question`, `@opencode/core/tool/plugin/subagent`, `@opencode/core/tool/plugin/todo`, `@opencode/core/tool/read-filesystem`, `@opencode/core/util/wildcard`, `@opencode/core/variant`); 138 shared patches by rung: 78 seam, 60 patch (`script/upstream/shared-patches.json`).
 
 ## History
 
@@ -47,7 +47,8 @@ One point per day from the committed `progress.json` on v2's first-parent histor
 | 2026-11-10 | 1869 | 5355 | 34.9% |
 | 2026-11-11 | 1972 | 5351 | 36.9% |
 | 2026-11-12 | 2013 | 5339 | 37.7% |
-| now | 2015 | 5339 | 37.7% |
+| 2026-11-16 | 2015 | 5339 | 37.7% |
+| now | 2016 | 5339 | 37.8% |
 
 ## Features
 
@@ -67,7 +68,7 @@ Cells per kind as done/total. A cell is done when it exists on v2 by the rules b
 | branch-name | 1/1 |  |  | 1/1 | 2/2 | 100% | `████████████████` |  |
 | caffeination | 1/1 |  |  |  | 1/1 | 100% | `████████████████` |  |
 | cleanup |  |  |  | 0/1 | 0/1 | 0% | `░░░░░░░░░░░░░░░░` |  |
-| cli | 4/72 |  | 2/25 | 2/51 | 8/148 | 5.4% | `█░░░░░░░░░░░░░░░` | 1 plugin, 1 patch |
+| cli | 5/72 |  | 2/25 | 2/51 | 9/148 | 6.1% | `█░░░░░░░░░░░░░░░` | 1 plugin, 1 patch |
 | cloud | 0/16 |  | 0/2 | 0/9 | 0/27 | 0% | `░░░░░░░░░░░░░░░░` |  |
 | command | 0/3 | 0/2 |  | 0/3 | 0/8 | 0% | `░░░░░░░░░░░░░░░░` |  |
 | commit-message | 4/4 |  |  | 3/3 | 7/7 | 100% | `████████████████` |  |

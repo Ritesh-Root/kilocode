@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 334" width="1000" height="334">
 <style>rect{stroke:#0d1117;stroke-width:.5}.d{fill:#2ea043}.o{fill:#6e7681}.x{fill:#d29922}.b{fill:none;stroke-width:2}text{font-family:sans-serif;fill:#fff;stroke:#0d1117;stroke-width:3;paint-order:stroke}</style>
 <rect x="0" y="0" width="1000" height="334" fill="#0d1117" stroke="none"/>
-<text x="4.00" y="21.00" font-size="16">Features: 37.7% (2015/5339)</text>
+<text x="4.00" y="21.00" font-size="16">Features: 37.8% (2016/5339)</text>
 <g><title>vscode: 1313/2011 (65.3%), 46 dropped</title>
 <rect class="d" x="1.00" y="31.00" width="22.13" height="23.17"/>
 <rect class="d" x="23.13" y="31.00" width="22.13" height="23.17"/>
@@ -767,7 +767,7 @@
 <rect class="b" x="604.60" y="162.55" width="103.68" height="73.97"/>
 <text x="609.60" y="178.55" font-size="12">indexing</text>
 </g>
-<g><title>cli: 8/148 (5.4%)</title>
+<g><title>cli: 9/148 (6.1%)</title>
 <rect class="d" x="605.60" y="237.52" width="6.78" height="7.15"/>
 <rect class="d" x="612.37" y="237.52" width="6.78" height="7.15"/>
 <rect class="d" x="619.15" y="237.52" width="6.78" height="7.15"/>
@@ -776,7 +776,7 @@
 <rect class="d" x="639.49" y="237.52" width="6.78" height="7.15"/>
 <rect class="d" x="646.27" y="237.52" width="6.78" height="7.15"/>
 <rect class="d" x="653.04" y="237.52" width="6.78" height="7.15"/>
-<rect class="o" x="659.82" y="237.52" width="6.78" height="7.15"/>
+<rect class="d" x="659.82" y="237.52" width="6.78" height="7.15"/>
 <rect class="o" x="666.60" y="237.52" width="6.78" height="7.15"/>
 <rect class="o" x="673.38" y="237.52" width="6.78" height="7.15"/>
 <rect class="o" x="680.16" y="237.52" width="6.78" height="7.15"/>
